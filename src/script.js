@@ -7,7 +7,7 @@ var mensaje;
 function jugo_de_fresas() {
   window.alert(mensaje);
   document.queryselector('header').innerHTML = mensaje
-  
+
 }
 
 function servir_vaso_de_agua() {
@@ -33,6 +33,7 @@ function jugo_de_mangos() {
 fresas = true;
 peras = false;
 mangos = false;
+
 if (fresas) {
   mensaje = "jugo de fresas"
   jugo_de_fresas();
@@ -46,9 +47,3 @@ if (fresas) {
   mensaje = "sirveme un vaso de agua"
   servir_vaso_de_agua();
 }
-
-
-
-
-
-
