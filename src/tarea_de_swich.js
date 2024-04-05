@@ -79,24 +79,13 @@ switch (dia) {
         domingo()
         break
     case 8:
-        mensaje = dia_no_existe
+        mensaje = "dia_no_existe"
         viernes()
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        case 0:
+            mensaje = "dia_no_existe ingrese un numero entre el 1-7"
+            viernes()
+            break
 
 
 
