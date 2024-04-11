@@ -32,5 +32,3 @@ console.log(cesta[2])
 
 
 
-var opcion
-var opcion = prompt ("1 ver  elementos de la cesta\n2. agrega una fruta de la cesta\n3. quitar ultima fruta de la cesta ")
