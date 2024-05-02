@@ -72,7 +72,7 @@ switch (dia) {
         break
     case 6:
         mensaje = "sabado"
-        viernes()
+        sabado()
         break
     case 7:
         mensaje = "domingo"
@@ -80,7 +80,7 @@ switch (dia) {
         break
     case 8:
         mensaje = "dia_no_existe"
-        viernes()
+        dia_no_existe()
         break
         case 0:
             mensaje = "dia_no_existe ingrese un numero entre el 1-7"

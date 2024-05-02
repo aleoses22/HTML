@@ -33,7 +33,7 @@ do {
             inicio = prompt("desea terminar el ciclo")
             if (inicio == "si") {
                 inicio = false
-
+ 
             }
 
 
