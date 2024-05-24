@@ -3,9 +3,6 @@ document.querySelector('#header').innerHTML = "estoy leyendo el documento proyec
 let arreglo = []
 
 
-
-
-
 function construirArrgelo(largo) {
     arreglo.length = largo
 
@@ -78,7 +75,7 @@ function mayorArreglo() {
         }
 
     }
-    console.log("El valor mas gande del arreglo es: ", valorMayor)
+    console.log("El valor alto del arreglo es: ", valorMayor)
     return valorMayor
 }
 function mayorDiferencia() {
@@ -180,7 +177,7 @@ var ciclo = true
 
 do {
 
-    var menu = parseInt(prompt("1. Llenar el arreglo\n 2.Promedios del arreglo\n3. Valores mayores del promedio\n4.Suma de todos los valores \n 5. Suma de los numeros impares \n 6.Numero mayor del arreglo \n 7.Diferencias ente 2 valores del arreglo \n 8.Encontrar un elemento en especifico \n 9.Posicion especifica de un elemento \n 10. Invertir el arreglo \n 11.Insertsr nuevo elemento \n 12. Mostrar arreglo \n13.Cerrar aplicacion"))
+    var menu = parseInt(prompt("1. Llenar el arreglo\n 2.Promedios del arreglo\n3. Valores mayores del promedio\n4.Suma de todos los valores \n 5. Suma de los numeros impares \n 6.Numero mayor del arreglo \n 7.Diferencias ente 2 valores del arreglo \n 8.busacar un elemento en especifico \n 9.Posicion especifica de un elemento \n 10. Invertir el arreglo \n 11.Insertsr nuevo elemento \n 12. Mostrar arreglo \n13.Cerrar aplicacion"))
 
     switch (parseInt(menu)) {
         case 1:
@@ -206,7 +203,7 @@ do {
             mayorDiferencia()
             break
         case 8:
-            let numeroConsulta = parseInt(prompt("Digite el numero a buscar dentro del arreglo: "))
+            let numeroConsulta = parseInt(prompt("Digite el numero a encontrar dentro del arreglo: "))
             console.log("El resultado de la búsqueda fue: " + encontrarElemento(numeroConsulta))
             break
         case 9:
@@ -227,7 +224,7 @@ do {
         case 13:
             finalizar()
             break;
-        default: alert("Esa no es una opcion disponible")
+        default: alert("Eso esta  disponible")
             break;
 
     }
